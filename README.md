@@ -27,7 +27,7 @@ which are achieved by leveraging advanced generative AI technologies. Specifical
   - [Citation](#citation)
   - [Contact Us](#contact-us)
 
-## Library Design ([blog](https://bannergen.placeholder))
+## Library Design ([blog](https://blog.salesforceairesearch.com/bannergen-a-library-for-multi-modality-banner-generation/))
 <img src="./fig/LibraryDesign.png" width=500>
 
 ## Getting Started
@@ -80,14 +80,14 @@ To test with your own background images and/or different types of foreground tex
 This work refers to the [Apache License 2.0](LICENSE.txt). For LayoutDETR, refer to their license [here](https://github.com/salesforce/LayoutDETR/blob/main/LICENSE.txt). For LayoutInstructPix2Pix, refer to InstructPix2Pix's license [here](https://github.com/timothybrooks/instruct-pix2pix/blob/main/LICENSE). We do NOT own the licenses to the fonts stored in `RetrieveAdapter/templates/css/fonts`. To use the fonts in your own work, please acquire the employed font licenses from the respective owners.
 
 ## Citation
-  ```
-  @article{yu2023layoutdetr,
-      title={LayoutDETR: Detection Transformer Is a Good Multimodal Layout Designer},
-      author={Yu, Ning and Chen, Chia-Chih and Chen, Zeyuan and Meng, Rui and Wu, Gang and Josel, Paul and Niebles, Juan Carlos and Xiong, Caiming and Xu, Ran},
-      journal={arXiv preprint arXiv:2212.09877},
-      year={2023}
-  }
-  ```
+```Bibtex
+@inproceedings{yu2024layoutdetr,  
+   title={LayoutDETR: Detection Transformer Is a Good Multimodal Layout Designer},
+   author={Yu, Ning and Chen, Chia-Chih and Chen, Zeyuan and Meng, Rui and Wu, Gang and Josel, Paul and Niebles, Juan Carlos and Xiong, Caiming and Xu, Ran},
+   booktitle={European Conference on Computer Vision (ECCV)},
+   year={2024}
+}
+```
 
 ## Contact Us
-If you have any questions, comments or suggestions, please do not hesitate to contact Ning Yu at [ning.yu@salesforce.com](mailto:ning.yu@salesforce.com) and Ran Xu at [ran.xu@salesforce.com](mailto:ran.xu@salesforce.com).
+If you have any questions, comments or suggestions, please do not hesitate to contact Ran Xu at [ran.xu@salesforce.com](mailto:ran.xu@salesforce.com).
